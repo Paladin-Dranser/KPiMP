@@ -35,4 +35,15 @@
 		<servlet-name>AddPage</servlet-name>
 		<url-pattern>/add</url-pattern>
 	</servlet-mapping>
+	
+	<servlet>
+		<description></description>
+		<display-name>CalculatePage</display-name>
+		<servlet-name>CalculatePage</servlet-name>
+		<servlet-class>by.bsac.lab1.Calculate</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CalculatePage</servlet-name>
+		<url-pattern>/lab1</url-pattern>
+	</servlet-mapping>
 </web-app>
