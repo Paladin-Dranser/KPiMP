@@ -1,11 +1,15 @@
 package by.bsac.pz5.factory;
 
 public class FactoryMethodPatterDemo {
-	public static void main(String args[]) {
+	public static void main(String args[]) throws InterruptedException {
 		Factory f = new Factory();
 		ILogger msgLogger = f.getLogger();
 		
-		msgLogger.debug("Sample degub message\n");
+		for (int i = 0; i < 6; i++) {
+			msgLogger.debug("Sample degub message\n");
+			Thread.sleep(1000);
+		}
+		
 		msgLogger.error("Sample error message\n");
 	}
 }

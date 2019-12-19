@@ -1,2 +1,22 @@
 DEBUG: Sample degub message
 DEBUG: Sample degub message
+java.io.BufferedWriter@27c170f0DEBUG: Sample degub message
+
+DEBUG: Sample degub message
+
+DEBUG: Sample degub message
+
+DEBUG: Sample degub message
+
+DEBUG: Sample degub message
+
+DEBUG: 0Sample degub message
+DEBUG: 1Sample degub message
+DEBUG: 2Sample degub message
+DEBUG: 3Sample degub message
+DEBUG: 4Sample degub message
+[19-12-2019 13:34:27] DEBUG: 0Sample degub message
+[19-12-2019 13:34:29] DEBUG: 1Sample degub message
+[19-12-2019 13:34:30] DEBUG: 2Sample degub message
+[19-12-2019 13:34:31] DEBUG: 3Sample degub message
+[19-12-2019 13:34:32] DEBUG: 4Sample degub message

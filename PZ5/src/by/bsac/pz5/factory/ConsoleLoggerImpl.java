@@ -6,7 +6,7 @@ public class ConsoleLoggerImpl implements ILogger {
 
 	@Override
 	public void debug(String msg) {
-		System.out.println("DEBU:" + msg);
+		System.out.println("DEBUG:" + msg);
 	}
 
 	@Override
