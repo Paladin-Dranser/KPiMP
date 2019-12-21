@@ -85,7 +85,7 @@
                  label={lst: pz2_authenticatorImpl},%
                  language=java]{PZ2/Java/AuthenticatorImpl.java}
 
-\subsubsection{Клас LoginController}
+\subsubsection{Клас LoginController.}
 
 Клас \textit{LoginController} з'яўляецца сервлетам
 вэб-праграмы, які прапаноўвае старонку для аўтэнтыфікацыі
@@ -99,5 +99,45 @@
                  label={lst: pz2_loginController},%
                  language=java]{PZ2/Java/LoginController.java}
 
+\subsubsection{Фільтр SessionFilter.}
+
+Клас \textit{SessionFilter} з'яўляецца фільтрам, які аналізуе
+запыт карыстальніка (на які URL быў адпраўлены), і перанакіроўвае
+карыстальніка на старонку \textit{login.jsp}, калі адрас не супадае
+з тымі, якія былі ўказаны ў \textit{web.xml}.
+
+У лістынгу \ref{lst: pz2_sessionFilter} прадстаўлены зыходны код класа \textit{SessionFilter}.
+
+\lstinputlisting[caption={Зыходны код класа SessionFilter},%
+                 label={lst: pz2_sessionFilter},%
+                 language=java]{PZ2/Java/SessionFilter.java}
+
 \subsection{Зыходны код. web.xml}
 
+Файл \textit{web.xml} апісвае, якім сервлетам (фільтрам) адпавядаюць якія класы,
+да якіх URL-аў прывязваецца сервлет (фільтр).
+
+У лістынгу \ref{lst: pz2_web.xml} прадстаўла канфігурацыя файла \textit{web.xml}.
+
+\lstinputlisting[caption={Канфігурацыя web.xml},%
+                 label={lst: pz2_web.xml},%
+                 language=HTML5,%
+                 style=htmlcssjs]{PZ2/web.xml}
+
+\vspace{-\baselineskip}
+\subsection{Індывідуальнае заданне}
+
+\subsubsection{Апісанне задання.}
+
+У файле захоўваецца тэкст.
+Для кожнага слова, якое ўводзіцца ў тэкставае поле HTML-старонкі (праз
+прабел), вывесці ў \textit{cookie}, колькі разоў яно сустракаецца
+ў тэксце.
+
+\subsubsection{Зыходны код}.
+
+У лістынгу \ref{lst: pz2_searchWords} прадстаўлены зыходны код класа \textit{SearchWords}.
+
+\lstinputlisting[caption={Зыходны код класа SearchWords},%
+                 label={lst: pz2_searchWords},%
+                 language=java]{PZ2/Java/SearchWords.java}
