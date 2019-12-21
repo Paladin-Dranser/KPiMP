@@ -6,3 +6,7 @@ Servers/
 .project
 *.class
 *.jar
+*.aux
+*.toc
+*.out
+*.log
